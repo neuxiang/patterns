@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="visitor" size="695,688" id="com.niufish.pattern.behavioral.visitor" metadata="uml2-1.0" initialized="true" scrolledY="180" tag="1000" key="32303037303533312D31303030207061747465726E732F536861776E">
+  <children xsi:type="editmodel:ClassEditModel" name="Client" location="50,600" size="79,67" id="com.niufish.pattern.behavioral.visitor/Client" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="com.niufish.pattern.behavioral.visitor/Client#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ObjectStructure" location="450,334" size="141,103" id="com.niufish.pattern.behavioral.visitor/ObjectStructure" runTimeClassModel="action(Lcom.niufish.pattern.behavioral.visitor.Visitor;),ObjectStructure(),add(Lcom.niufish.pattern.behavioral.visitor.Element;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ObjectStructure" id="com.niufish.pattern.behavioral.visitor/ObjectStructure#ObjectStructure()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="com.niufish.pattern.behavioral.visitor/ObjectStructure#action(Lcom.niufish.pattern.behavioral.visitor.Visitor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="com.niufish.pattern.behavioral.visitor/ObjectStructure#add(Lcom.niufish.pattern.behavioral.visitor.Element;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.niufish.pattern.behavioral.visitor/ObjectStructure->Soyatec::Import" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,40"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.niufish.pattern.behavioral.visitor/ObjectStructure-Soyatec::Import->com.niufish.pattern.behavioral.visitor/Visitor" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,87"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.1" name="Visitor" location="172,50" size="82,99" id="com.niufish.pattern.behavioral.visitor/Visitor" runTimeClassModel="visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementB;),visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementA;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,36">
+      <children xsi:type="editmodel:MethodEditModel" name="visit" id="com.niufish.pattern.behavioral.visitor/Visitor#visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementA;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="visit" id="com.niufish.pattern.behavioral.visitor/Visitor#visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementB;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConcreteVisitorA" location="228,199" size="148,85" id="com.niufish.pattern.behavioral.visitor/ConcreteVisitorA" runTimeClassModel="visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementB;),visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementA;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,36">
+      <children xsi:type="editmodel:MethodEditModel" name="visit" id="com.niufish.pattern.behavioral.visitor/ConcreteVisitorA#visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementA;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="visit" id="com.niufish.pattern.behavioral.visitor/ConcreteVisitorA#visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementB;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.niufish.pattern.behavioral.visitor/Visitor&lt;-com.niufish.pattern.behavioral.visitor/ConcreteVisitorA" source="//@children.3" target="//@children.4/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConcreteVisitorB" location="50,199" size="148,85" id="com.niufish.pattern.behavioral.visitor/ConcreteVisitorB" runTimeClassModel="visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementB;),visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementA;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,36">
+      <children xsi:type="editmodel:MethodEditModel" name="visit" id="com.niufish.pattern.behavioral.visitor/ConcreteVisitorB#visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementB;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="visit" id="com.niufish.pattern.behavioral.visitor/ConcreteVisitorB#visit(Lcom.niufish.pattern.behavioral.visitor.ConcreteElementA;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0" autoLocated="true" id="com.niufish.pattern.behavioral.visitor/Visitor&lt;-com.niufish.pattern.behavioral.visitor/ConcreteVisitorB" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.1/@sourceConnections.0" name="Element" location="178,334" size="94,81" id="com.niufish.pattern.behavioral.visitor/Element" runTimeClassModel="accept(Lcom.niufish.pattern.behavioral.visitor.Visitor;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="com.niufish.pattern.behavioral.visitor/Element#accept(Lcom.niufish.pattern.behavioral.visitor.Visitor;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConcreteElementB" location="240,465" size="160,85" id="com.niufish.pattern.behavioral.visitor/ConcreteElementB" runTimeClassModel="accept(Lcom.niufish.pattern.behavioral.visitor.Visitor;),operationB()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,36">
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="com.niufish.pattern.behavioral.visitor/ConcreteElementB#accept(Lcom.niufish.pattern.behavioral.visitor.Visitor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="operationB" id="com.niufish.pattern.behavioral.visitor/ConcreteElementB#operationB()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.niufish.pattern.behavioral.visitor/Element&lt;-com.niufish.pattern.behavioral.visitor/ConcreteElementB" source="//@children.6" target="//@children.7/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConcreteElementA" location="50,465" size="160,85" id="com.niufish.pattern.behavioral.visitor/ConcreteElementA" runTimeClassModel="accept(Lcom.niufish.pattern.behavioral.visitor.Visitor;),operationA()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,36">
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="com.niufish.pattern.behavioral.visitor/ConcreteElementA#accept(Lcom.niufish.pattern.behavioral.visitor.Visitor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="operationA" id="com.niufish.pattern.behavioral.visitor/ConcreteElementA#operationA()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0" autoLocated="true" id="com.niufish.pattern.behavioral.visitor/Element&lt;-com.niufish.pattern.behavioral.visitor/ConcreteElementA" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
